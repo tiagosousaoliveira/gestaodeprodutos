@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sYdMSMuXiB0=",
+  "dgSpecHash": "P7QWaglYVJQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\tiagg\\OneDrive\\Documents\\AutoGlass\\GestaoDeProdutos\\GestaoDeProdutos.csproj",
+  "projectFilePath": "D:\\Pasta de Projetos\\gestaodeprodutos\\GestaoDeProdutos\\GestaoDeProdutos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tiagg\\.nuget\\packages\\automapper\\6.0.0\\automapper.6.0.0.nupkg.sha512",
     "C:\\Users\\tiagg\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\2.0.0\\automapper.extensions.microsoft.dependencyinjection.2.0.0.nupkg.sha512",

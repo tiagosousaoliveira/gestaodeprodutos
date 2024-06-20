@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tiagg\\source\\repos\\Infra\\Infra.csproj": {}
+    "D:\\Pasta de Projetos\\gestaodeprodutos\\Infra\\Infra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tiagg\\source\\repos\\Infra\\Infra.csproj": {
+    "D:\\Pasta de Projetos\\gestaodeprodutos\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiagg\\source\\repos\\Infra\\Infra.csproj",
-        "projectName": "Infra",
-        "projectPath": "C:\\Users\\tiagg\\source\\repos\\Infra\\Infra.csproj",
+        "projectUniqueName": "D:\\Pasta de Projetos\\gestaodeprodutos\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\tiagg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiagg\\source\\repos\\Infra\\obj\\",
+        "outputPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,93 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pasta de Projetos\\gestaodeprodutos\\Infra\\Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pasta de Projetos\\gestaodeprodutos\\Infra\\Infra.csproj",
+        "projectName": "Infra",
+        "projectPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Infra\\Infra.csproj",
+        "packagesPath": "C:\\Users\\tiagg\\.nuget\\packages\\",
+        "outputPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tiagg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Pasta de Projetos\\gestaodeprodutos\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -3009,9 +3009,6 @@
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "2.0.0"
-        },
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
@@ -3026,6 +3023,7 @@
           "Aplication": "1.0.0",
           "AutoMapper": "6.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "2.0.0",
+          "Domain": "1.0.0",
           "Infra": "1.0.0",
           "MediatR": "12.3.0",
           "Microsoft.EntityFrameworkCore": "5.0.17",
@@ -3046,6 +3044,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "AutoMapper": "6.0.0",
           "Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
@@ -9263,13 +9262,13 @@
     },
     "Aplication/1.0.0": {
       "type": "project",
-      "path": "../../../../source/repos/Aplication/Aplication.csproj",
-      "msbuildProject": "../../../../source/repos/Aplication/Aplication.csproj"
+      "path": "../Aplication/Aplication.csproj",
+      "msbuildProject": "../Aplication/Aplication.csproj"
     },
     "Domain/1.0.0": {
       "type": "project",
-      "path": "../../../../source/repos/Domain/Domain.csproj",
-      "msbuildProject": "../../../../source/repos/Domain/Domain.csproj"
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     },
     "GestaoDeProdutos/1.0.0": {
       "type": "project",
@@ -9278,15 +9277,14 @@
     },
     "Infra/1.0.0": {
       "type": "project",
-      "path": "../../../../source/repos/Infra/Infra.csproj",
-      "msbuildProject": "../../../../source/repos/Infra/Infra.csproj"
+      "path": "../Infra/Infra.csproj",
+      "msbuildProject": "../Infra/Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "FluentAssertions >= 6.12.0",
       "GestaoDeProdutos >= 1.0.0",
-      "Infra >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Testing >= 5.0.17",
       "Microsoft.EntityFrameworkCore.InMemory >= 5.0.17",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
@@ -9303,11 +9301,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tiagg\\OneDrive\\Documents\\AutoGlass\\Testes\\Testes.csproj",
+      "projectUniqueName": "D:\\Pasta de Projetos\\gestaodeprodutos\\Testes\\Testes.csproj",
       "projectName": "Testes",
-      "projectPath": "C:\\Users\\tiagg\\OneDrive\\Documents\\AutoGlass\\Testes\\Testes.csproj",
+      "projectPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Testes\\Testes.csproj",
       "packagesPath": "C:\\Users\\tiagg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tiagg\\OneDrive\\Documents\\AutoGlass\\Testes\\obj\\",
+      "outputPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Testes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9329,11 +9327,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\tiagg\\OneDrive\\Documents\\AutoGlass\\GestaoDeProdutos\\GestaoDeProdutos.csproj": {
-              "projectPath": "C:\\Users\\tiagg\\OneDrive\\Documents\\AutoGlass\\GestaoDeProdutos\\GestaoDeProdutos.csproj"
-            },
-            "C:\\Users\\tiagg\\source\\repos\\Infra\\Infra.csproj": {
-              "projectPath": "C:\\Users\\tiagg\\source\\repos\\Infra\\Infra.csproj"
+            "D:\\Pasta de Projetos\\gestaodeprodutos\\GestaoDeProdutos\\GestaoDeProdutos.csproj": {
+              "projectPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\GestaoDeProdutos\\GestaoDeProdutos.csproj"
             }
           }
         }

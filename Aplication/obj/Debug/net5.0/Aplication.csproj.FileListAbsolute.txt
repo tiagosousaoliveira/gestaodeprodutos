@@ -1,0 +1,31 @@
+C:\Users\tiagg\source\repos\Aplication\bin\Debug\net5.0\Aplication.deps.json
+C:\Users\tiagg\source\repos\Aplication\bin\Debug\net5.0\Aplication.dll
+C:\Users\tiagg\source\repos\Aplication\bin\Debug\net5.0\Aplication.pdb
+C:\Users\tiagg\source\repos\Aplication\bin\Debug\net5.0\Domain.dll
+C:\Users\tiagg\source\repos\Aplication\bin\Debug\net5.0\Domain.pdb
+C:\Users\tiagg\source\repos\Aplication\obj\Debug\net5.0\Aplication.csproj.AssemblyReference.cache
+C:\Users\tiagg\source\repos\Aplication\obj\Debug\net5.0\Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiagg\source\repos\Aplication\obj\Debug\net5.0\Aplication.AssemblyInfoInputs.cache
+C:\Users\tiagg\source\repos\Aplication\obj\Debug\net5.0\Aplication.AssemblyInfo.cs
+C:\Users\tiagg\source\repos\Aplication\obj\Debug\net5.0\Aplication.csproj.CoreCompileInputs.cache
+C:\Users\tiagg\source\repos\Aplication\obj\Debug\net5.0\Aplication.csproj.Up2Date
+C:\Users\tiagg\source\repos\Aplication\obj\Debug\net5.0\Aplication.dll
+C:\Users\tiagg\source\repos\Aplication\obj\Debug\net5.0\refint\Aplication.dll
+C:\Users\tiagg\source\repos\Aplication\obj\Debug\net5.0\Aplication.pdb
+C:\Users\tiagg\source\repos\Aplication\obj\Debug\net5.0\ref\Aplication.dll
+D:\Pasta de Projetos\gestaodeprodutos\Aplication\bin\Debug\net5.0\Aplication.deps.json
+D:\Pasta de Projetos\gestaodeprodutos\Aplication\bin\Debug\net5.0\Aplication.dll
+D:\Pasta de Projetos\gestaodeprodutos\Aplication\bin\Debug\net5.0\Aplication.pdb
+D:\Pasta de Projetos\gestaodeprodutos\Aplication\bin\Debug\net5.0\Domain.dll
+D:\Pasta de Projetos\gestaodeprodutos\Aplication\bin\Debug\net5.0\Domain.pdb
+D:\Pasta de Projetos\gestaodeprodutos\Aplication\obj\Debug\net5.0\Aplication.csproj.AssemblyReference.cache
+D:\Pasta de Projetos\gestaodeprodutos\Aplication\obj\Debug\net5.0\Aplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pasta de Projetos\gestaodeprodutos\Aplication\obj\Debug\net5.0\Aplication.AssemblyInfoInputs.cache
+D:\Pasta de Projetos\gestaodeprodutos\Aplication\obj\Debug\net5.0\Aplication.AssemblyInfo.cs
+D:\Pasta de Projetos\gestaodeprodutos\Aplication\obj\Debug\net5.0\Aplication.csproj.CoreCompileInputs.cache
+D:\Pasta de Projetos\gestaodeprodutos\Aplication\obj\Debug\net5.0\Aplication.sourcelink.json
+D:\Pasta de Projetos\gestaodeprodutos\Aplication\obj\Debug\net5.0\Aplication.csproj.Up2Date
+D:\Pasta de Projetos\gestaodeprodutos\Aplication\obj\Debug\net5.0\Aplication.dll
+D:\Pasta de Projetos\gestaodeprodutos\Aplication\obj\Debug\net5.0\refint\Aplication.dll
+D:\Pasta de Projetos\gestaodeprodutos\Aplication\obj\Debug\net5.0\Aplication.pdb
+D:\Pasta de Projetos\gestaodeprodutos\Aplication\obj\Debug\net5.0\ref\Aplication.dll

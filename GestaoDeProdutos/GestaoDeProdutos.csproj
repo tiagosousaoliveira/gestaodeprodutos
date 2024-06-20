@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -18,8 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\source\repos\Aplication\Aplication.csproj" />
-    <ProjectReference Include="..\..\..\..\source\repos\Infra\Infra.csproj" />
+    <ProjectReference Include="..\Aplication\Aplication.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Infra\Infra.csproj" />
   </ItemGroup>
 
 </Project>

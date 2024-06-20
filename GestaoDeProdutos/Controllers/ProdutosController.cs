@@ -5,7 +5,6 @@ using Domain.Dto;
 using GestaoDeProdutos.Inputs;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Threading.Tasks;
 
 namespace GestaoDeProdutos.Controllers

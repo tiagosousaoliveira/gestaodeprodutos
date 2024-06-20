@@ -24,7 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\source\repos\Infra\Infra.csproj" />
     <ProjectReference Include="..\GestaoDeProdutos\GestaoDeProdutos.csproj" />
   </ItemGroup>
 

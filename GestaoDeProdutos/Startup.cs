@@ -1,8 +1,6 @@
 using Aplication.Commands;
-using Aplication.Mappings;
 using AutoMapper;
 using Domain.Persistence;
-using GestaoDeProdutos.Mappings;
 using Infra;
 using Infra.Repositories;
 using Microsoft.AspNetCore.Builder;

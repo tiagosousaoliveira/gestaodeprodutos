@@ -11,14 +11,14 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Aplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\tiagg\\source\\repos\\Aplication", "Aplication.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\tiagg\\source\\repos\\Domain", "Domain.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("GestaoDeProdutos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\tiagg\\OneDrive\\Documents\\AutoGlass\\GestaoDeProdutos", "GestaoDeProdutos.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Infra, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\tiagg\\source\\repos\\Infra", "Infra.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Aplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Pasta de Projetos\\gestaodeprodutos\\Aplication", "Aplication.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Pasta de Projetos\\gestaodeprodutos\\Domain", "Domain.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("GestaoDeProdutos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Pasta de Projetos\\gestaodeprodutos\\GestaoDeProdutos", "GestaoDeProdutos.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Infra, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Pasta de Projetos\\gestaodeprodutos\\Infra", "Infra.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Testes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fd8753a947bccafe452ccab64df2acc5f3ad5e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Testes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Testes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

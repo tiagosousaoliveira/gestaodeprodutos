@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tiagg\\OneDrive\\Documents\\AutoGlass\\GestaoDeProdutos\\GestaoDeProdutos.csproj": {}
+    "D:\\Pasta de Projetos\\gestaodeprodutos\\GestaoDeProdutos\\GestaoDeProdutos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tiagg\\OneDrive\\Documents\\AutoGlass\\GestaoDeProdutos\\GestaoDeProdutos.csproj": {
+    "D:\\Pasta de Projetos\\gestaodeprodutos\\Aplication\\Aplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiagg\\OneDrive\\Documents\\AutoGlass\\GestaoDeProdutos\\GestaoDeProdutos.csproj",
-        "projectName": "GestaoDeProdutos",
-        "projectPath": "C:\\Users\\tiagg\\OneDrive\\Documents\\AutoGlass\\GestaoDeProdutos\\GestaoDeProdutos.csproj",
+        "projectUniqueName": "D:\\Pasta de Projetos\\gestaodeprodutos\\Aplication\\Aplication.csproj",
+        "projectName": "Aplication",
+        "projectPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Aplication\\Aplication.csproj",
         "packagesPath": "C:\\Users\\tiagg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiagg\\OneDrive\\Documents\\AutoGlass\\GestaoDeProdutos\\obj\\",
+        "outputPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Aplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,166 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\tiagg\\source\\repos\\Aplication\\Aplication.csproj": {
-                "projectPath": "C:\\Users\\tiagg\\source\\repos\\Aplication\\Aplication.csproj"
+              "D:\\Pasta de Projetos\\gestaodeprodutos\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pasta de Projetos\\gestaodeprodutos\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pasta de Projetos\\gestaodeprodutos\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\tiagg\\.nuget\\packages\\",
+        "outputPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tiagg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pasta de Projetos\\gestaodeprodutos\\GestaoDeProdutos\\GestaoDeProdutos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pasta de Projetos\\gestaodeprodutos\\GestaoDeProdutos\\GestaoDeProdutos.csproj",
+        "projectName": "GestaoDeProdutos",
+        "projectPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\GestaoDeProdutos\\GestaoDeProdutos.csproj",
+        "packagesPath": "C:\\Users\\tiagg\\.nuget\\packages\\",
+        "outputPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\GestaoDeProdutos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tiagg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Pasta de Projetos\\gestaodeprodutos\\Aplication\\Aplication.csproj": {
+                "projectPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Aplication\\Aplication.csproj"
               },
-              "C:\\Users\\tiagg\\source\\repos\\Infra\\Infra.csproj": {
-                "projectPath": "C:\\Users\\tiagg\\source\\repos\\Infra\\Infra.csproj"
+              "D:\\Pasta de Projetos\\gestaodeprodutos\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Domain\\Domain.csproj"
+              },
+              "D:\\Pasta de Projetos\\gestaodeprodutos\\Infra\\Infra.csproj": {
+                "projectPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Infra\\Infra.csproj"
               }
             }
           }
@@ -111,14 +266,14 @@
         }
       }
     },
-    "C:\\Users\\tiagg\\source\\repos\\Aplication\\Aplication.csproj": {
+    "D:\\Pasta de Projetos\\gestaodeprodutos\\Infra\\Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiagg\\source\\repos\\Aplication\\Aplication.csproj",
-        "projectName": "Aplication",
-        "projectPath": "C:\\Users\\tiagg\\source\\repos\\Aplication\\Aplication.csproj",
+        "projectUniqueName": "D:\\Pasta de Projetos\\gestaodeprodutos\\Infra\\Infra.csproj",
+        "projectName": "Infra",
+        "projectPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Infra\\Infra.csproj",
         "packagesPath": "C:\\Users\\tiagg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiagg\\source\\repos\\Aplication\\obj\\",
+        "outputPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -140,8 +295,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\tiagg\\source\\repos\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\tiagg\\source\\repos\\Domain\\Domain.csproj"
+              "D:\\Pasta de Projetos\\gestaodeprodutos\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Pasta de Projetos\\gestaodeprodutos\\Domain\\Domain.csproj"
               }
             }
           }
@@ -165,177 +320,11 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[2.0.0, )"
-            },
-            "FluentValidation": {
-              "target": "Package",
-              "version": "[11.9.2, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[12.3.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\tiagg\\source\\repos\\Domain\\Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\tiagg\\source\\repos\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "C:\\Users\\tiagg\\source\\repos\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\tiagg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiagg\\source\\repos\\Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\tiagg\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[2.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\tiagg\\source\\repos\\Infra\\Infra.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\tiagg\\source\\repos\\Infra\\Infra.csproj",
-        "projectName": "Infra",
-        "projectPath": "C:\\Users\\tiagg\\source\\repos\\Infra\\Infra.csproj",
-        "packagesPath": "C:\\Users\\tiagg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiagg\\source\\repos\\Infra\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\tiagg\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Users\\tiagg\\source\\repos\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\tiagg\\source\\repos\\Domain\\Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.17, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
             "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.17, )"
             },

@@ -36,6 +36,7 @@
           "Aplication": "1.0.0",
           "AutoMapper": "6.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "2.0.0",
+          "Domain": "1.0.0",
           "Infra": "1.0.0",
           "MediatR": "12.3.0",
           "Microsoft.EntityFrameworkCore": "5.0.17",
@@ -1154,9 +1155,6 @@
         }
       },
       "Domain/1.0.0": {
-        "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "2.0.0"
-        },
         "runtime": {
           "Domain.dll": {}
         },
@@ -1166,6 +1164,7 @@
       },
       "Infra/1.0.0": {
         "dependencies": {
+          "AutoMapper": "6.0.0",
           "Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
